@@ -1,0 +1,34 @@
+// DIFF-AWARE E2E (authorized security test) 2026-07-08 — FAKE throwaway creds, never used.
+// Introduced ONLY in this PR's changed file to validate diff-scope fail-closed catch + gate block.
+export const awsAccessKeyId = "AKIA5FRESHE2E7TESTXY";
+export const awsSecretAccessKey = "wJalrXUtnFEMI/K7MDENG/bPxRfiCYFRESHKEYXYZ";
+export const leakedPrivateKey = `
+-----BEGIN PRIVATE KEY-----
+MIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCyfokLhugkqpgt
+jsrzzgPGz7ev7Q8ybi+9sgB6tnSYgvoBdWZh3cYNeHKVpt3sv8IppcgskykVyNWZ
+6oquucVps1l1gJNtxpdVyXYSDPrm9imdK1XOk7iOerX5kQMc9ZlOG8APGNe1JTiU
+ONxWv/J98NjxCnk/HVFo+LZw4dE+PSIahuFcShLcvhDrBmPNbZI/OfmyBteRZyPP
+JGG5J6IpzcWl8Fuy3cSEAOwtVI4pg2Jcleerw5MxHkehWEFc/MpAb3WQYJpK0iIH
+1zfu+s0iv7mPAYify3CrSs41F7S8lR/OxXz/ZQJEmE8QarIcjcVvLc4JHVAEMivv
+CVteDpCBAgMBAAECggEAGUvlkESmUcv7lTlPeg4QavS1S7GFHdiP24qGlt2U2Kh3
+Vg2VXPlZQD95vcvQV+U1V0GvhOG2SOgVnaKn1OtvFvPcEdMPEde7SuUqXpSIWoM4
+kpW5q3U0Cr1JXP04O7py56b3KSyUJZAI3LjSQVkivMaNeFvLoy48g2v8LzNRvEgg
+kDbULxdC9n88V+a44Cdr/7dMmeJvT7eJIXp/x5oEKyrURm9QmK0bwY7M5EaheQhz
+IulB0YT7pIMoLjhMLTZjXh81Uw739Fz213s+5g31i+GjnfjBAwWy5ufav6ocp6So
+6d9cRSu+gtlJW3hXUW4p73m+BuRfDE8cPRg0qzWjoQKBgQD0sHc9ygUGjbueLWqF
+eFKpoMHqOaMb+4JzFKE2V6VmmYeG/I4NreMwkN3wYuxDi63T9CmrVNTd7MZk5DWq
+CuXAIJOFFBlxU/Fda82zwu2gSFMUxlmfurguT79je6lZHSybzoe+zyDHhw5s99WI
+7rDPBRIV+3SNeTE5SQ4a47pg+wKBgQC6vr/q2Z3aUSdp8chjUxzHWOu0JpxeQUDV
+9wy5/HhtQOwTaK2+CJHwYDaml9DezTBJhPd2CLAqFyyJ1uue4uM0xu1DjSNbJX0D
+jMPiEa2Zgj88Dqd/K+QhJ98pP81GL5QowSu2kRDAZuNKQt8r/y/HEnf05Mz6h/er
++Py/K8RzswKBgQDX42ahxr+eY6j4y7tjXaEZdvQA06+8/bDAFqCSkMwndShliilP
+mm+MJxUahj1M702EZ7XoK+XQlJsK42sRx6GkXVmrHevA2L5pnbcVdtQwCf/7oXHs
+A1OD0OrdPHtTW/FC2vtb9+ZFBT1OGXB265pmXWPyrzTLqfUrRPDD+s8zxwKBgQCq
+bpRxHhL2wMIb6tJb8+p79SeIzwQ+8YbewA4ZX9X4wBu0ywBmQyQOIYE/Iac68EF1
+l6jRTLSadXPsiP2ZkLCT5kl8MT9nXBtwNfRASqoJQ9m6UhWD9ubJa747w0LxH1M0
+rrfacyK6tiwSBl3vpYJRSQW5t2dr7tOXXDIvtx4gCQKBgAycnp98O3eVfBdPgtD7
+qxkYs/MeTWaAGeAJh6vwxaanL1J62GvQKzvxHe/fLEdr44vOrDZ9mEKcjZPq+TPQ
+4V9f1Eb/6wNIeHPgniifdHkEUwcul2tHOKdwfY4+ClfDhPdnFykyaWlGDB5fuP7u
+EMAOGIEARWHaWPANiDQ5jrxi
+-----END PRIVATE KEY-----
+`;
