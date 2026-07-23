@@ -1,3 +1,5 @@
+# Added a header comment (Test A: fingerprint-stability, no code change)
+# second comment line
 import os
 import sqlite3
 
@@ -13,3 +15,7 @@ def ping_host(request):
     # BASELINE VULN #2 — OS command injection (untrusted input to os.system)
     host = request.args.get("host")
     os.system("ping -c 1 " + host)
+
+# isolated re-scan comment (Test A)
+
+# concurrency-test bump
