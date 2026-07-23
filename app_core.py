@@ -1,3 +1,4 @@
+# touched by existing-only PR (no new vulnerability introduced)
 import os
 import sqlite3
 
