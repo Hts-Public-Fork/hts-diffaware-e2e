@@ -7,3 +7,5 @@ def get_payment(request, db):
     return db.execute(query).fetchall()
 
 # retrigger scan
+
+# parallel re-scan after PR#2 merged
