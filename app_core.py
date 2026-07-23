@@ -1,3 +1,5 @@
+# Added a header comment (Test A: fingerprint-stability, no code change)
+# second comment line
 import os
 import sqlite3
 
